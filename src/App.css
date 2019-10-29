@@ -1,22 +1,24 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+form {
+  padding: 40px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.form-item {
+  display: flex;
+  align-items: center;
+}
+
+.form-item__label {
+  text-align: right;
+}
+
+.input__name,
+.input__password,
+.input__submit {
+  width: 200px;
+  margin: 10px;
 }
